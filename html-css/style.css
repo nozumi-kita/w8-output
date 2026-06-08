@@ -46,6 +46,12 @@
   margin: 10px 300px;
 }
 
+/* sign-in */
+.sign-in-section {
+  justify-content: center;
+  display: flex;
+}
+
 .form label {
   display: block;
 }
