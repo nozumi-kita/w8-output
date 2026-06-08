@@ -45,3 +45,7 @@
 .six-times-two {
   margin: 10px 300px;
 }
+
+.form label {
+  display: block;
+}
