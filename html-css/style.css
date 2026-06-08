@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-col-4 > .grid-item {
+  width: 25%;
+  height: 80px;
+  background-color: #22458d;
+  border: 10px solid #fff;
+}
+
+.grid-col-2 > .grid-item {
+  width: 50%;
+  height: 100px;
+  background-color: #641717;
+  border: 10px solid #fff;
+}
+
+.grid-col-6 > .grid-item {
+  width: 16.6%;
+  height: 60px;
+  background-color: #22458d;
+  border: 10px solid #fff;
+}
+
+.four-times-four {
+  margin: 0 200px;
+}
+
+.two-times-two {
+  margin: 10px 300px;
+}
+
+.six-times-two {
+  margin: 10px 300px;
+}
