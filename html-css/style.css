@@ -52,6 +52,11 @@
   display: flex;
 }
 
+.sign-in {
+  padding: 50px;
+  border: 1px solid #000;
+}
+
 .form label {
   display: block;
 }
@@ -83,4 +88,20 @@ a {
 .input:focus {
   border-color: #2563eb;
   box-shadow: 0 0 0 3px rgba(37,99,235,.25);
+}
+
+.email-box,
+.password-box,
+.form-button {
+  margin: 20px 0;
+}
+
+.submit {
+  width: 100%;
+  color: #fff;
+  background-color: #2456bb;
+  font-size: 22px;
+  border: 1px solid #000;
+  border-radius: 15px;
+  padding: 12px 14px;
 }
