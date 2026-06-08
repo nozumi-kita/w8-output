@@ -63,3 +63,24 @@
 a {
   text-decoration: none;
 }
+
+.input {
+  width: 100%;
+  background: #303f5b;
+  color: #fff;
+  font-size: 22px;
+  padding: 12px 14px;
+  border: 1px solid #2f3844;
+  border-radius: 15px;
+  outline: none;
+  transition: border-color .15s, box-shadow .15s;
+}
+
+.input::placeholder {
+  color: #9ca3af;
+}
+
+.input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37,99,235,.25);
+}
