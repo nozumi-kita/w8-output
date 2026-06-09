@@ -131,9 +131,32 @@ a:active {
   border-radius: 15px;
   padding: 12px 14px;
   border: none;
-  transition: background-color .15s;
 }
 
 .submit:active {
-  background-color: #1148b8;
+  background-color: #0a44b8;
+}
+
+/* localstorage */
+.local-storage {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.delete-localstorage {
+  background-color: rgb(215, 103, 103);
+  font-size: 16px;
+  padding: 12px 14px;
+  border-radius:  15px;
+  color: #fff;
+  border: none;
+}
+
+.delete-localstorage:hover {
+  cursor: pointer;
+}
+
+.delete-localstorage:active {
+  background-color: rgb(213, 74, 74);
 }
