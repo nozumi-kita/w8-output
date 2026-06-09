@@ -6,7 +6,7 @@ h1 {
   color: #fff;
 }
 
-body {
+.sign-in-page {
   background-color: #37383b;
 }
 
@@ -63,7 +63,7 @@ body {
 .sign-in {
   padding: 50px;
   border: 1px solid #000;
-  border-radius: 10px;
+  border-radius: 30% 5%;
   background-color: #3d465c;
 }
 
@@ -90,6 +90,10 @@ a:visited {
 
 a:hover {
   text-decoration: underline;
+}
+
+a:active {
+  color: rgb(12, 84, 226);
 }
 
 .input {
@@ -127,6 +131,7 @@ a:hover {
   border-radius: 15px;
   padding: 12px 14px;
   border: none;
+  transition: background-color .15s;
 }
 
 .submit:active {
