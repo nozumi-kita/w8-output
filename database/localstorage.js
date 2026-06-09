@@ -1,6 +1,6 @@
+// ログイン時に情報保存
 const formLogin = document.getElementById("form-login");
 
-// ログイン時に情報保存
 formLogin.addEventListener("submit", () => {
     const formData = new FormData(formLogin);
 
@@ -25,3 +25,10 @@ const deleteStorageData = () => {
     localStorage.removeItem('password');
     location.reload();
 }
+
+document.getElementById('delete-localstorage').addEventListener("click", () => {
+    const answer = confirm("本当に削除してよろしいですか?");
+    if (answer) {
+        deleteStorageData();
+    }
+})
